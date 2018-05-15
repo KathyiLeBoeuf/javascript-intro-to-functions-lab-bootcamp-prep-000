@@ -40,7 +40,7 @@ function sayHiToGrandma(string) {
   if (string === mixedcase)
   return 'I love you, too';
 } 
-sayHiToGrandma('I LOVE YOU');
+sayHiToGrandma('hello');
 
 /*
 else if (string === uppercase) {
