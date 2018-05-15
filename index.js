@@ -16,12 +16,12 @@ function logWhisper(string) {
 }
 logShout('HeLLO');
 
-var uppercase = 'HELLO'
+var uppercase = 'HELLO!'
   uppercase.toUpperCase === uppercase; //true
-var lowercase = 'hello'
+var lowercase = 'hello!'
   lowercase.toLowerCase === lowercase; //true
   
-var mixedcase = 'HELLO'
+var mixedcase = 'Hi there!'
   mixedcase.toLowerCase === mixedcase;//false
   mixedcase.toUpperCase === mixedcase; //false
  
