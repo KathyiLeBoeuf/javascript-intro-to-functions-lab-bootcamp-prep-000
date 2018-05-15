@@ -36,7 +36,7 @@ function sayHiToGrandma(string) {
  return 'I love you, too!';
 } 
 }
-sayHiToGrandma('I LOVE YOU, GRANDM!');
+sayHiToGrandma('I LOVE YOU, GRANDMA!');
 
 
 
