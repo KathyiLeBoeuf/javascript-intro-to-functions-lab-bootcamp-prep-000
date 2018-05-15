@@ -28,19 +28,17 @@ var mixedcase = 'Hi there!'
   
   
 function sayHiToGrandma(string) {
-  if (string === string.lowercase())
+  if (string === string.lowercase()){
   return 'I can\'t hear you';
 } else if (string === string.uppercase()) {
   return 'YES INDEED!';
 } else {
  return 'I love you, too';
-}
-
-function sayHiToGrandma(string) {
-  if (string === mixedcase)
-  return 'I love you, too';
 } 
+}
 sayHiToGrandma('hello');
+
+
 
 /*
 else if (string === uppercase) {
