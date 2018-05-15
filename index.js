@@ -30,11 +30,20 @@ var lowercase = 'hello'
 function sayHiToGrandma(string) {
   if (string === lowercase)
   return 'I can\'t hear you';
-} else if (string === uppercase) {
+} 
+function sayHiToGrandma(string) {
+  if (string === uppercase)
+  return 'I can\'t hear you';
+} 
+
+
+/*
+else if (string === uppercase) {
   return 'YES INDEED!';
 } else {
   return 'I love you, too';
 }
+*/
 sayHiToGrandma('I LOVE YOU');
 /*
 describe('sayHiToGrandma(string)', function() {
