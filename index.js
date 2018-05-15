@@ -17,10 +17,23 @@ function logWhisper(string) {
 logShout('HeLLO');
 
 var uppercase = 'HELLO'
-  uppercase.toUpperCase === uppercase;
+  uppercase.toUpperCase === uppercase; //true
+var lowercase = 'hello'
+  lowercase.toLowerCase === lowercase; //true
+  
+  var mixedcase = 'HELLO'
+  mixedcase.toLowerCase === mixedcase;//false
+  mixedcase.toUpperCase === mixedcase; //false
+  
+  
   
 function sayHiToGrandma(string) {
-  if ()
+  if (string === lowercase)
+  return 'I can\'t hear you';
+} else if (string === uppercase) {
+  return 'YES INDEED!';
+} else {
+  return 'I love you, too';
 }
 
 /*
